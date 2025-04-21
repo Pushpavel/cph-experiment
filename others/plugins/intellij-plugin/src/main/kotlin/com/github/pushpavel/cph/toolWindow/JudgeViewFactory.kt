@@ -1,19 +1,14 @@
-package com.github.mechisama.cph.toolWindow
+package com.github.pushpavel.cph.toolWindow
 
-import com.github.mechisama.cph.services.CphBackend
-import com.intellij.openapi.Disposable
+import com.github.pushpavel.cph.services.CphBackend
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.DumbAware
 import com.intellij.openapi.project.Project
-import com.intellij.openapi.ui.SimpleToolWindowPanel
 import com.intellij.openapi.wm.ToolWindow
 import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.jcef.JBCefBrowser
-import com.intellij.ui.jcef.JBCefBrowserBuilder
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import java.awt.BorderLayout
-import javax.swing.JPanel
 
 class JudgeViewFactory : ToolWindowFactory, DumbAware {
 

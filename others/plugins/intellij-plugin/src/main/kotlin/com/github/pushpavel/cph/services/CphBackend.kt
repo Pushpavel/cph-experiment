@@ -1,6 +1,6 @@
-package com.github.mechisama.cph.services
+package com.github.pushpavel.cph.services
 
-import com.github.mechisama.cph.Constants
+import com.github.pushpavel.cph.Constants
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.logger
 import kotlinx.coroutines.delay

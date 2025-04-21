@@ -1,4 +1,4 @@
-package com.github.mechisama.cph
+package com.github.pushpavel.cph
 
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.minutes

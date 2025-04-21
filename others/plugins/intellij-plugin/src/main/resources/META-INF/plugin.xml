@@ -1,20 +1,20 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.mechisama.cph</id>
+    <id>com.github.pushpavel.cph</id>
     <name>cph</name>
-    <vendor>mechisama</vendor>
+    <vendor>pushpavel</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.mechisama.cph.toolWindow.JudgeViewFactory" id="Results"/>
-        <postStartupActivity implementation="com.github.mechisama.cph.listeners.CphStartup"/>
+        <toolWindow factoryClass="com.github.pushpavel.cph.toolWindow.JudgeViewFactory" id="Results"/>
+        <postStartupActivity implementation="com.github.pushpavel.cph.listeners.CphStartup"/>
     </extensions>
 
     <actions>
-        <action id="com.github.mechisama.cph.actions.DownloadFileAction"
-                class="com.github.mechisama.cph.actions.DownloadFileAction" text="Download File for fun"/>
+        <action id="com.github.pushpavel.cph.actions.DownloadFileAction"
+                class="com.github.pushpavel.cph.actions.DownloadFileAction" text="Download File for fun"/>
     </actions>
 </idea-plugin>

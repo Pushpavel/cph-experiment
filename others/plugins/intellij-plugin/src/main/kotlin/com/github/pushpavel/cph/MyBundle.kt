@@ -1,4 +1,4 @@
-package com.github.mechisama.cph
+package com.github.pushpavel.cph
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

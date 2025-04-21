@@ -1,6 +1,6 @@
 # cph-intellij
 
-![Build](https://github.com/mechisama/cph/workflows/Build/badge.svg)
+![Build](https://github.com/Pushpavel/cph-experiment/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
@@ -33,7 +33,7 @@ To keep everything working, do not remove `<!-- ... -->` sections.
   
 - Manually:
 
-  Download the [latest release](https://github.com/mechisama/cph/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/Pushpavel/cph-experiment/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 

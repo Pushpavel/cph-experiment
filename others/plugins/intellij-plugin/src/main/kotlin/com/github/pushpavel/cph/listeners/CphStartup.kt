@@ -1,7 +1,6 @@
-package com.github.mechisama.cph.listeners
+package com.github.pushpavel.cph.listeners
 
-import com.github.mechisama.cph.services.CphBackend
-import com.intellij.openapi.application.ApplicationActivationListener
+import com.github.pushpavel.cph.services.CphBackend
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.logger
 import com.intellij.openapi.fileEditor.FileEditorManager
@@ -10,7 +9,6 @@ import com.intellij.openapi.fileEditor.FileEditorManagerListener
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.startup.ProjectActivity
 import com.intellij.openapi.vfs.VirtualFile
-import com.intellij.openapi.wm.IdeFrame
 import io.javalin.Javalin
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.encodeToString
